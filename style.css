@@ -11,33 +11,10 @@
     padding: 5px 10%;
     background-color: none;
  }
- .navlist ul{
-    display: flex;
-    list-style: none;
- }
- .navlist ul li:first-child{
-    flex: 1;
-    color: #ffffff;
- }
- .navlist ul li h4{
-    font-family: serif;
- }
- .navlist ul a{
-    display: block;
-    margin-left: 20px;
-    font-family: "Century Gothic", sans-serif;
-    font-size: 0.9rem;
-    color: white;
-    text-decoration: none;
- }
- .navlist ul a:hover{
-    color: #ff8800;
- }
+
  .navlist img {
      width: 130px;
  }
- 
- 
 
  .main-box {
     width: 100%;
@@ -48,7 +25,7 @@
     background-repeat: no-repeat;
     color: #ffffff;
     text-align: center;
-    padding-top: 30vh;
+    padding-top: 20vh;
  }
  
  .main-box h1{
@@ -58,22 +35,10 @@
  }
  .main-box p{
     font-family: "Century Gothic", sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 1.4px;
     margin-bottom: 40px;
  }
- /*
- .main-box button{
-    padding: 10px;
-    border: none;
-    outline: none;
-    background: none;
-    border: 1px solid #ff8800;
-    color: #ffffff;
- }
- .main-box button:hover{
-    background: #ff8800;
- } */
 
  .row{
     display: flex;
@@ -149,7 +114,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
  }
  .contact button{
    padding: 10px;
@@ -180,12 +144,11 @@
    .navlist img {
       width: 100px;
   }
-  .navlist li {
-     font-size: 10px;
-  }
+ 
   .main-box {
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
   }
+  
  }
