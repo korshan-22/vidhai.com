@@ -35,9 +35,9 @@
  }
  .main-box p{
     font-family: "Century Gothic", sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 1.4px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
  }
 
  .row{
@@ -139,27 +139,16 @@
    margin-bottom: 10px;
 }
 
- /* Tablet Landscape 
-@media screen and (max-width: 1060px) {
-   #primary { width:67%; }
-   #secondary { width:30%; margin-left:3%;}  
-}
-*/
-/* Tabled Portrait 
-@media screen and (max-width: 768px) {
-   #primary { width:100%; }
-   #secondary { width:100%; margin:0; border:none; }
-} */
 
 @media only screen and (max-width: 480px) {
    .navlist img {
       width: 100px;
   }
- 
   .main-box {
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
    padding-top: 20vh;
   }
+  
  }
